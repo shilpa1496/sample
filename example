@@ -1,1 +1,5 @@
-
+node
+{
+stage 'Run Jmeter Test'
+Desktop/apache-jmeter-3.3/bin/jmeter.sh -n -t Desktop/apache-jmeter-3.3/bin/ebay (2) -000039.jmx
+}
