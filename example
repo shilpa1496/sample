@@ -1,6 +1,6 @@
 node
 {
 stage 'Run Jmeter Test'
-/Desktop/apache-jmeter-3.3/bin/jmeter -n -t /Desktop/apache-jmeter-3.3/extras/Asset_tag_search_10/Asset_tag_search_10asset.jmx  -l demo.jtl  -Jjmeter.save.saveservice.output_format=xml
+/Desktop/apache-jmeter-3.3/bin/jmeter -n -t /Desktop/apache-jmeter-3.3/ebay.jmx  -l demo.jtl  -Jjmeter.save.saveservice.output_format=xml
 
 }
