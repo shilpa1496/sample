@@ -1,5 +1,5 @@
 node
 {
 stage 'Run Jmeter Test'
-/Volumes/DATA/apache-jmeter-3.3/bin/jmeter -n -t /Volumes/DATA/apache-jmeter-3.3/extras/ebay.jmx -l test.jtl -Jjmeter.save.saveservice.output_format=xml
+sh /Volumes/DATA/apache-jmeter-3.3/bin/jmeter -n -t /Volumes/DATA/apache-jmeter-3.3/extras/ebay.jmx -l test.jtl -Jjmeter.save.saveservice.output_format=xml
 }
